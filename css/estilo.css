@@ -1,0 +1,239 @@
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #999;
+    float:left ;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    float:left ;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float:left ;
+}
+
+.box1 {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    background-color: aqua;
+    float: left;
+    margin-bottom: -1%;
+   
+}
+
+.box2 {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    background-color: #0000ff;
+    float: left;
+    margin-bottom: -1%;
+}
+
+.box3 {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    background-color: aqua;
+    float: left;
+    margin-bottom: -1%;
+}
+.promo1 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    background-color: aqua;
+    float: left;
+    margin-bottom: -1%;  
+}
+
+.promo2 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    background-color: #0000ff;
+    float: left;
+    margin-bottom: -1%;  
+}
+
+.quem-somos {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.titulo {
+    color:  #63CAF2;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 2px;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #034AA6;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 2px;
+    height: auto;
+}
+
+.roteiros-nacionais {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.roteiros-internacionais {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cambio {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    width: 45%;
+    margin: auto;
+
+}
+
+.cambio-container {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.fale-conosco {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.inp-form {
+    width: 55%;
+    height: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+    border-radius: 3px; 
+    border: 1px solid black;
+    
+}
+
+.contact-info {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.contact-infos {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.localizacao {
+    width: 50%;
+    height: auto;
+}
+.infos {
+    width: 100%;
+    height: auto;
+    background-color: #F7F9F9;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F7F9F9;
+}
+
+.row iframe {
+    margin: 10px;
+  }
+
+
+@media screen and (max-width: 800px) {
+    .container, .header, .navbar, .content, .footer, .box1, .box2, .box3, .promo1, .promo2, .quem-somos, .roteiros-nacionais, .roteiros-internacionais, .cambio, .fale-conosco, .form, .inp-form, .infos, .row, .row  iframe  {
+      width: 100%;
+    }
+  }
